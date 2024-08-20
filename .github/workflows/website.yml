@@ -41,4 +41,4 @@ jobs:
                   aws-region: us-west-2
 
             - name: Deploy to AWS with SST
-              run: npx sst deploy --stage prod
+              run: npx sst deploy
